@@ -6,6 +6,7 @@ body {
     text-align:center;
 }
 .jumbotron {
+    border-radius: 0;
     background-image: url("watFront.jpg");
     background-repeat: no-repeat;
     background-position: center;
