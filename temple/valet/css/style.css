@@ -237,7 +237,7 @@ textarea {
 
 .sf-menu a {
   color: rgba(0, 0, 0, 0.8);
-  color: #2d9c9b;
+  color: gold;
   padding: .75em 1em;
   font-weight: normal;
   border-left: none;
@@ -520,10 +520,12 @@ textarea {
   display: block;
   margin: 0 auto;
   display: none;
-  background: #f86942;
+  background: rgba(255,215,0,0.5);
   height: 44px;
   width: 44px;
+	border-radius:0 0 25% 0;
   border-bottom: none !important;
+	box-shadow: none;
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav-toggle {
@@ -609,14 +611,9 @@ textarea {
   top: 0;
   width: 100%;
   z-index: 10001;
-  background: #2b303b;
+  background-color: transpearant;
   color: #ccc;
-  -webkit-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
-  -moz-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
-  -ms-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
-  -o-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
-  box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
-}
+  }
 #fh5co-logo-mobile-wrap h1 {
   padding: 0;
   margin: 0;
@@ -692,7 +689,7 @@ textarea {
 }
 
 #fh5co-hero {
-background-image: url(/valet/jWatPics/watTampaBanner.jpg);
+background-image: url(/jWatPics/watTampaBanner.jpg);
 	background-size: cover;
   background-repeat: no-repeat;
   background-position: center left;
@@ -730,7 +727,7 @@ background-image: url(/valet/jWatPics/watTampaBanner.jpg);
   text-decoration: none;
   width: 50px;
   height: 50px;
-  background: #f86942;
+  background: rgba(255,215,0,0.5);
   border-bottom: none !important;
   text-align: center;
   -webkit-border-radius: 50%;
@@ -959,9 +956,9 @@ body.fh5co-mobile-menu-visible #fh5co-mobile-menu {
 }
 #fh5co-call-to-action:hover, #fh5co-call-to-action:focus, #fh5co-call-to-action:active {
   color: #ffffff;
-  background: #f86942;
-  border-top: 1px solid #f86942;
-  border-bottom: 1px solid #f86942;
+  background: rgba(255,215,0,0.5)2;
+  border-top: 1px solid rgba(255,215,0,0.5);
+  border-bottom: 1px solid rgba(255,215,0,0.5);
 }
 
 #fh5co-footer {
@@ -985,7 +982,7 @@ body.fh5co-mobile-menu-visible #fh5co-mobile-menu {
   text-decoration: none;
   width: 60px;
   height: 60px;
-  background: #f86942;
+  background: rgba(255,215,0,0.5);
   border-bottom: none !important;
   text-align: center;
   -webkit-border-radius: 50%;
@@ -1254,8 +1251,8 @@ Components
   color: #2a2e37;
 }
 .btn-outline:hover, .btn-outline:active, .btn-outline:focus {
-  border: 2px solid #f86942 !important;
-  background: #f86942 !important;
+  border: 2px solid rgba(255,215,0,0.5)2 !important;
+  background: rgba(255,215,0,0.5) !important;
   color: #ffffff;
 }
 
@@ -1585,8 +1582,8 @@ Components
   border-radius: 50%;
 }
 .fh5co-social-icons li a:hover {
-  background: #f86942;
-  border: 1px solid #f86942 !important;
+  background: rgba(255,215,0,0.5);
+  border: 1px solid rgba(255,215,0,0.5) !important;
   color: #ffffff !important;
 }
 .fh5co-social-icons li i {
